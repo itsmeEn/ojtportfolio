@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eunice D. Ibardaloza — IT Intern Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@300;400;500;600;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-follower" id="cursorFollower"></div>
+
+  <!-- SCANLINES OVERLAY -->
+  <div class="scanlines"></div>
+
+  <!-- NOISE OVERLAY -->
+  <div class="noise"></div>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-logo">
+      <span class="blink">&gt;</span> EUI<span class="accent">_</span>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#profile" data-label="01">Profile</a></li>
+      <li><a href="#company" data-label="02">Company</a></li>
+      <li><a href="#background" data-label="03">Projects</a></li>
+      <li><a href="#deliverables" data-label="04">Deliverables</a></li>
+      <li><a href="#learning" data-label="05">Learning</a></li>
+      <li><a href="#tools" data-label="06">Tools</a></li>
+      <li><a href="#solutions" data-label="07">Solutions</a></li>
+      <li><a href="#reflection" data-label="08">Reflection</a></li>
+    </ul>
+    <div class="nav-status">
+      <span class="status-dot"></span> ONLINE
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-tag glitch-small" aria-hidden="true"></div>
+      <h1 class="hero-name glitch" data-text="EUNICE D.">EUNICE D.</h1>
+      <h1 class="hero-name glitch accent-name" data-text="IBARDALOZA">IBARDALOZA</h1>
+      <div class="hero-role">
+        <span class="typing-text" id="typingText">Desk-Site Engineer Trainee</span><span class="caret">|</span>
+      </div>
+      <div class="hero-meta">
+        <div class="meta-item"><span class="meta-label">COURSE</span><span class="meta-val">BSIT — Cybersecurity</span></div>
+        <div class="meta-item"><span class="meta-label">YEAR</span><span class="meta-val">4th Year</span></div>
+        <div class="meta-item"><span class="meta-label">HOST</span><span class="meta-val">Fusion CX</span></div>
+      </div>
+      <div class="hero-ctas">
+        <a href="#profile" class="btn-primary">
+          <span class="btn-glitch">EXPLORE PORTFOLIO</span>
+          <div class="btn-border"></div>
+        </a>
+        <a href="https://www.linkedin.com/in/eunice-ibardaloza-d/" target="_blank" class="btn-ghost">LINKEDIN ↗</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="hex-ring">
+        <div class="hex-center">
+          <div class="avatar-placeholder">
+            <img class="avatar-img" src="Resume%20Photo.png" alt="Eunice D. Ibardaloza" />
+            <span class="avatar-icon">⬡</span>
+            <span class="avatar-text">E.D.I</span>
+          </div>
+        </div>
+        <div class="orbit orbit-1"></div>
+        <div class="orbit orbit-2"></div>
+        <div class="orbit orbit-3"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- SECTION 1: STUDENT PROFILE -->
+  <section class="section" id="profile">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">01</span>
+        <span class="label-line"></span>
+        <span class="label-text">STUDENT PROFILE</span>
+      </div>
+      <h2 class="section-title">Who I Am</h2>
+
+      <div class="profile-grid">
+        <div class="profile-card card-glow reveal">
+          <div class="card-header">
+            <span class="card-tag">PROFILE DETAILS</span>
+          </div>
+          <div class="profile-info-list">
+            <div class="pinfo-row">
+              <span class="pinfo-key">Full Name</span>
+              <span class="pinfo-val">Eunice D. Ibardaloza</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">Course</span>
+              <span class="pinfo-val">BSIT — Cybersecurity</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">Year</span>
+              <span class="pinfo-val">4th Year (Graduating)</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">School</span>
+              <span class="pinfo-val">T.I.P. Manila</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">Email</span>
+              <span class="pinfo-val accent-cyan">euniceibardaloza5@gmail.com</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">Mobile</span>
+              <span class="pinfo-val accent-cyan">09677621674</span>
+            </div>
+            <div class="pinfo-row">
+              <span class="pinfo-key">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/eunice-ibardaloza-d/" target="_blank" class="pinfo-val accent-cyan link-hover">Eunice Ibardaloza on LinkedIn</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="profile-bio reveal">
+          <div class="bio-block">
+            <span class="bio-arrow">&gt;&gt;</span>
+            <p>I am a graduating Information Technology student at the Technological Institute of the Philippines (T.I.P.), specializing in Cybersecurity. My academic focus has been on protecting digital assets and maintaining the integrity of enterprise-level network environments.</p>
+          </div>
+          <div class="bio-block">
+            <span class="bio-arrow">&gt;&gt;</span>
+            <p>During my internship at Fusion CX, I served as a Desk-Site Engineer Trainee and Team Lead, bridging the gap between hardware infrastructure and technical compliance. I evolved from a trainee into a specialist capable of managing site-wide audits and large-scale software migrations.</p>
+          </div>
+          <div class="bio-block">
+            <span class="bio-arrow">&gt;&gt;</span>
+            <p>My career aspirations involve becoming a Specialized System Engineer, focusing on enterprise-level hardware deployment and security compliance. I possess a unique professional niche in Software QA and Project Management, allowing me to ensure every deployment is not only functional but also secure and process-efficient.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: COMPANY PROFILE -->
+  <section class="section section-alt" id="company">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">02</span>
+        <span class="label-line"></span>
+        <span class="label-text">COMPANY PROFILE</span>
+      </div>
+      <h2 class="section-title">Fusion CX</h2>
+
+      <div class="company-layout">
+        <div class="company-main reveal">
+          <div class="company-badge">
+            <div class="badge-logo badge-logo-img">
+              <img src="fusionlogo.png" alt="Fusion CX corporate logo" loading="lazy" />
+            </div>
+            <div class="badge-info">
+              <div class="badge-name">Fusion CX</div>
+              <div class="badge-type">Global BPO &amp; CX Leader</div>
+            </div>
+            <div class="badge-status"><span class="status-dot"></span> Operational</div>
+          </div>
+          <div class="company-desc card-glow">
+            <div class="card-header"><span class="card-tag">COMPANY_OVERVIEW.TXT</span></div>
+            <p>Fusion CX is a global BPO and customer experience leader that manages high-security accounts for international brands. They utilize advanced AI-driven tools and human-led support to deliver seamless customer service across multiple production floors.</p>
+            <div class="company-specs">
+              <div class="spec-item">
+                <span class="spec-label">LOCATION</span>
+                <span class="spec-val">5F, 6F &amp; 7F, 500 Shaw Blvd, Pleasant Hills, Mandaluyong City, 1052 Metro Manila</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">INDUSTRY</span>
+                <span class="spec-val">BPO / Customer Experience / Tech Support</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">DEPARTMENT</span>
+                <span class="spec-val">Tech Support — IT Division</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hierarchy-card card-glow reveal">
+          <div class="card-header"><span class="card-tag">HIERARCHY.SYS</span></div>
+          <div class="hierarchy-tree">
+            <div class="hier-node top-node">IT Manager</div>
+            <div class="hier-connector"></div>
+            <div class="hier-node">IT Supervisor</div>
+            <div class="hier-connector"></div>
+            <div class="hier-node">Senior IT</div>
+            <div class="hier-connector"></div>
+            <div class="hier-node">IT Specialist</div>
+            <div class="hier-connector"></div>
+            <div class="hier-node active-node">⬡ Desk-Site Engineer Trainee</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3: BACKGROUND / PROJECTS -->
+  <section class="section" id="background">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">03</span>
+        <span class="label-line"></span>
+        <span class="label-text">BACKGROUND OF TRAINING</span>
+      </div>
+      <h2 class="section-title">Project Involvement</h2>
+
+      <div class="project-overview card-glow reveal">
+        <div class="card-header"><span class="card-tag">PROJECT OVERVIEW</span></div>
+        <p>
+          I was a key contributor to three critical initiatives: the Enterprise Asset Inventory, the Avaya-to-Genesys Softphone Software Transistion,
+          and the AT&amp;T Compliance Audit.
+        </p>
+        <div class="project-overview-grid">
+          <div class="project-overview-block">
+            <div class="overview-title">Main Objectives</div>
+            <ul class="overview-list">
+              <li><span class="overview-key">Audit Readiness:</span> To provide "first-hand experience" as an IT Audit Trainee by verifying the physical and digital integrity of hundreds of assets.</li>
+              <li><span class="overview-key">Seamless Transition:</span> To migrate agents from legacy Avaya systems to Genesys Softphone with zero downtime, maintaining continuous production.</li>
+              <li><span class="overview-key">Security Hardening:</span> To align site infrastructure with the rigorous global security standards required by the AT&amp;T account.</li>
+            </ul>
+          </div>
+          <div class="project-overview-block">
+            <div class="overview-title">Role &amp; Responsibilities</div>
+            <p class="overview-text">
+              My tasks included performing deep-level system audits, re-imaging units for security compliance, leading intern teams during
+              floor-wide audits, and providing real-time technical support to production agents.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-grid">
+
+        <div class="project-card card-glow reveal" data-index="01">
+          <div class="project-index">01</div>
+          <div class="project-tag">AUDIT</div>
+          <h3 class="project-name">Enterprise Asset Inventory</h3>
+          <p class="project-desc">A comprehensive audit initiative to map all physical and digital assets across the 5th, 6th, and 7th production floors.</p>
+          <div class="project-obj">
+            <span class="obj-label">OBJECTIVE</span>
+            <span class="obj-text">Audit Readiness — To provide "first-hand experience" as an IT Audit Trainee by verifying the physical and digital integrity of hundreds of assets.</span>
+          </div>
+          <div class="project-role">
+            <span class="role-label">MY ROLE</span>
+            <ul>
+              <li>Performed deep-level system audits</li>
+              <li>Led intern teams during floor-wide audits</li>
+              <li>Compiled and maintained asset databases</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card card-glow reveal" data-index="02">
+          <div class="project-index">02</div>
+          <div class="project-tag">MIGRATION</div>
+          <h3 class="project-name">Avaya → Genesys Softphone Migration</h3>
+          <p class="project-desc">A large-scale migration of agents from the legacy Avaya telephony system to the modern Genesys Cloud CX Softphone platform, executed with zero downtime to maintain continuous production operations.</p>
+          <div class="project-obj">
+            <span class="obj-label">OBJECTIVE</span>
+            <span class="obj-text">Seamless Transition — To migrate agents from legacy Avaya systems to Genesys Softphone with zero downtime, maintaining continuous production.</span>
+          </div>
+          <div class="project-role">
+            <span class="role-label">MY ROLE</span>
+            <ul>
+              <li>Deployed Genesys Softphone on various Line of Business (LOB) stations such as BMC, Loyalty, and Enterprise</li>
+              <li>Provided real-time technical support to agents</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="project-card card-glow reveal" data-index="03">
+          <div class="project-index">03</div>
+          <div class="project-tag">COMPLIANCE</div>
+          <h3 class="project-name">AT&T Infrastructure Compliance Audit</h3>
+          <p class="project-desc">A critical security compliance initiative to align site infrastructure with AT&T's rigorous global security standards. Required precision-level execution of scripts, re-imaging, and vulnerability remediation under strict audit conditions.</p>
+          <div class="project-obj">
+            <span class="obj-label">OBJECTIVE</span>
+            <span class="obj-text">Security Hardening — To align site infrastructure with the rigorous global security standards required by the AT&amp;T account.</span>
+          </div>
+          <div class="project-role">
+            <span class="role-label">MY ROLE</span>
+            <ul>
+              <li>Executed custom .bat files and GPUpdates</li>
+              <li>Re-imaged non-compliant units</li>
+              <li>Resolved CrowdStrike "Malicious" flagged items</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 4: DELIVERABLES -->
+  <section class="section section-alt" id="deliverables">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">04</span>
+        <span class="label-line"></span>
+        <span class="label-text">PROJECT DELIVERABLES</span>
+      </div>
+      <h2 class="section-title">What I Built</h2>
+
+      <div class="deliverables-list">
+
+        <div class="deliverable-item reveal">
+          <div class="deliv-icon">📋</div>
+          <div class="deliv-content">
+            <div class="deliv-title">Audit-Ready Asset Database</div>
+            <p class="deliv-desc">Produced a comprehensive inventory of PCs, monitors, and headsets across the 5th, 6th, and 7th floors of the site.</p>
+            <div class="deliv-impact">
+              <span class="impact-label">IMPACT</span>
+              <span class="impact-text">Direct contribution to passing the AT&T Compliance Audit by providing verified asset traceability</span>
+            </div>
+          </div>
+          <div class="deliv-tag">DATABASE</div>
+        </div>
+
+        <div class="deliverable-item reveal">
+          <div class="deliv-icon">🚀</div>
+          <div class="deliv-content">
+            <div class="deliv-title">Software Transition Success </div>
+            <p class="deliv-desc">Successfully deployed Genesys Softphone accross workstations in a single shift. All agents were fully operational on the new platform with zero production downtime recorded.</p>
+            <div class="deliv-impact">
+              <span class="impact-label">IMPACT</span>
+              <span class="impact-text">Eliminated legacy Avaya dependencies, modernized communications infrastructure, and hardened endpoint security simultaneously</span>
+            </div>
+          </div>
+          <div class="deliv-tag">DEPLOYMENT</div>
+        </div>
+
+        <div class="deliverable-item reveal">
+          <div class="deliv-icon">🔐</div>
+          <div class="deliv-content">
+            <div class="deliv-title">Security Compliance Scripts</div>
+            <p class="deliv-desc">Executed custom .bat files and GPUpdate scripts to block unauthorized tools and enforce security policy. Results directly produced a "Passed" status on the AT&T Compliance Audit — a critical milestone for the site's account retention.</p>
+            <div class="deliv-impact">
+              <span class="impact-label">IMPACT</span>
+              <span class="impact-text">Site achieved AT&T Compliance "Passed" status, securing the international account relationship</span>
+            </div>
+          </div>
+          <div class="deliv-tag">SECURITY</div>
+        </div>
+
+        <div class="deliverable-item reveal">
+          <div class="deliv-icon">💿</div>
+          <div class="deliv-content">
+            <div class="deliv-title">Validated Cloned Images for LOBs</div>
+            <p class="deliv-desc">Reimaged and tested standardized OS/software images for Lines of Business in various lines of business. Each image was QA-verified — confirming digital licenses, BIOS settings, and tool accessibility — before mass deployment.</p>
+            <div class="deliv-impact">
+              <span class="impact-label">IMPACT</span>
+              <span class="impact-text">Reduced deployment errors and standardized the re-imaging workflow across multiple LOBs</span>
+            </div>
+          </div>
+          <div class="deliv-tag">QA / IMAGING</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 5: LEARNING & DEVELOPMENT -->
+  <section class="section" id="learning">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">05</span>
+        <span class="label-line"></span>
+        <span class="label-text">PROFESSIONAL LEARNING</span>
+      </div>
+      <h2 class="section-title">Growth Achieved</h2>
+
+      <div class="learning-grid">
+
+        <div class="learning-card card-glow reveal">
+          <div class="lc-icon">🗂️</div>
+          <h3 class="lc-title">IT Audit Methodology</h3>
+          <p class="lc-desc">Gained hands-on experience in asset lifecycle management and hardware-to-user accountability in a high-security BPO environment. Learned to conduct structured audits under enterprise compliance conditions.</p>
+        </div>
+
+        <div class="learning-card card-glow reveal">
+          <div class="lc-icon">👥</div>
+          <h3 class="lc-title">Project Management & Leadership</h3>
+          <p class="lc-desc">Progressed from trainee to Team Lead, managing task delegation and mentoring new intern cohorts in technical compliance procedures and company security policies.</p>
+        </div>
+
+        <div class="learning-card card-glow reveal">
+          <div class="lc-icon">🧪</div>
+          <h3 class="lc-title">Software QA Workflow</h3>
+          <p class="lc-desc">Mastered a "test-before-deploy" discipline — verifying digital licenses, BIOS configurations, and tool accessibility (Sanas, Genesys) before any production deployment to minimize errors.</p>
+        </div>
+
+        <div class="learning-card card-glow reveal">
+          <div class="lc-icon">🛡️</div>
+          <h3 class="lc-title">Cybersecurity in Practice</h3>
+          <p class="lc-desc">Learned to manage Endpoint Detection and Response (EDR) through CrowdStrike Falcon. Resolved real-world software vulnerabilities via manual Registry Hive imports in a live enterprise environment.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: TOOLS & TECHNIQUES -->
+  <section class="section section-alt" id="tools">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">06</span>
+        <span class="label-line"></span>
+        <span class="label-text">SKILLS &amp; TOOLS</span>
+      </div>
+      <h2 class="section-title">Tech Stack Used</h2>
+
+      <div class="tools-layout">
+        <div class="tools-categories">
+
+          <div class="tool-category reveal">
+            <div class="tc-header">
+              <span class="tc-icon">🔒</span>
+              <span class="tc-label">CYBERSECURITY</span>
+            </div>
+            <div class="tool-tags">
+              <span class="tool-tag">CrowdStrike Falcon</span>
+              <span class="tool-tag">Infraon Security Sweeps</span>
+              <span class="tool-tag">Registry Editor (Hive)</span>
+              <span class="tool-tag">Endpoint Detection & Response</span>
+              <span class="tool-tag">GPUpdate Scripts</span>
+              <span class="tool-tag">.bat Scripting</span>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <div class="tc-header">
+              <span class="tc-icon">🌐</span>
+              <span class="tc-label">CONNECTIVITY</span>
+            </div>
+            <div class="tool-tags">
+              <span class="tool-tag">FortiClient VPN</span>
+              <span class="tool-tag">Genesys Cloud CX</span>
+              <span class="tool-tag">Legacy Avaya System</span>
+              <span class="tool-tag">NetAlly Network Sweeper</span>
+              <span class="tool-tag">LAN Port Mapping</span>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <div class="tc-header">
+              <span class="tc-icon">💻</span>
+              <span class="tc-label">OS / ADMINISTRATION</span>
+            </div>
+            <div class="tool-tags">
+              <span class="tool-tag">Windows 11 Pro</span>
+              <span class="tool-tag">DISM Commands</span>
+              <span class="tool-tag">SFC Commands</span>
+              <span class="tool-tag">Disk-to-Disk Cloning</span>
+              <span class="tool-tag">Image Cloning</span>
+              <span class="tool-tag">Frontier (Agent Notepad)</span>
+            </div>
+          </div>
+
+          <div class="tool-category reveal">
+            <div class="tc-header">
+              <span class="tc-icon">🔧</span>
+              <span class="tc-label">HARDWARE</span>
+            </div>
+            <div class="tool-tags">
+              <span class="tool-tag">NetAlly Layer 1/2 Troubleshooting</span>
+              <span class="tool-tag">PC/Monitor/Headset Auditing</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="soft-skills-panel reveal">
+          <div class="card-header"><span class="card-tag">SOFT_SKILLS.LOG</span></div>
+          <div class="soft-skill-item">
+            <span class="ss-label">Agile Problem-Solving</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 92%"></div></div>
+            <span class="ss-pct">92%</span>
+          </div>
+          <div class="soft-skill-item">
+            <span class="ss-label">Technical Documentation</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 88%"></div></div>
+            <span class="ss-pct">88%</span>
+          </div>
+          <div class="soft-skill-item">
+            <span class="ss-label">Team Leadership</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 85%"></div></div>
+            <span class="ss-pct">85%</span>
+          </div>
+          <div class="soft-skill-item">
+            <span class="ss-label">Professional Escalation</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 90%"></div></div>
+            <span class="ss-pct">90%</span>
+          </div>
+          <div class="soft-skill-item">
+            <span class="ss-label">QA Mindset</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 95%"></div></div>
+            <span class="ss-pct">95%</span>
+          </div>
+          <div class="soft-skill-item">
+            <span class="ss-label">Cybersecurity Awareness</span>
+            <div class="ss-bar"><div class="ss-fill" style="--pct: 93%"></div></div>
+            <span class="ss-pct">93%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 7: DISCIPLINE SOLUTIONS -->
+  <section class="section" id="solutions">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">07</span>
+        <span class="label-line"></span>
+        <span class="label-text">DISCIPLINE-RELATED SOLUTIONS</span>
+      </div>
+      <h2 class="section-title">Academic Knowledge Applied</h2>
+
+      <div class="solutions-grid">
+
+        <div class="solution-card card-glow reveal">
+          <div class="sol-num">SOL_01</div>
+          <div class="sol-domain">Cybersecurity Major</div>
+          <h3 class="sol-title">Vulnerability Remediation via Registry Editor</h3>
+          <p class="sol-desc">Identified "Malicious" warnings triggered by Infraon appearing in the CrowdStrike Falcon dashboard. Applied cybersecurity coursework on endpoint management to perform surgical uninstalls directly through the Windows Registry Editor (Hive manipulation), resolving the flags without disrupting production environments.</p>
+          <div class="sol-outcome">
+            <span class="outcome-icon">✓</span>
+            <span class="outcome-text">CrowdStrike alerts cleared; endpoints fully compliant</span>
+          </div>
+        </div>
+
+        <div class="solution-card card-glow reveal">
+          <div class="sol-num">SOL_02</div>
+          <div class="sol-domain">Project Management Niche</div>
+          <h3 class="sol-title">Standardized Intern Onboarding Process</h3>
+          <p class="sol-desc">Applied project management principles from academic training to systematize the intern onboarding workflow. Created a comprehensive checklist covering all company security policies, which was adopted as the standard onboarding reference for subsequent intern cohorts — directly improving training efficiency and compliance awareness.</p>
+          <div class="sol-outcome">
+            <span class="outcome-icon">✓</span>
+            <span class="outcome-text">Reduced onboarding time; improved security policy adherence across intern teams</span>
+          </div>
+        </div>
+
+        <div class="solution-card card-glow reveal">
+          <div class="sol-num">SOL_03</div>
+          <div class="sol-domain">QA-Driven Network Reliability</div>
+          <h3 class="sol-title">APIPA Resolution via Port-Sweep Protocol</h3>
+          <p class="sol-desc">Diagnosed persistent APIPA (169.254.x.x) IP address assignment failures affecting agent workstations. Implemented a systematic port-sweep protocol using NetAlly Network Sweepers to identify faulty LAN connections at Layer 1/2, proactively resolving connectivity issues before they could impact agent production performance.</p>
+          <div class="sol-outcome">
+            <span class="outcome-icon">✓</span>
+            <span class="outcome-text">Eliminated APIPA-related production disruptions through preventive network diagnostics</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 8: REFLECTION -->
+  <section class="section section-alt" id="reflection">
+    <div class="section-inner">
+      <div class="section-label">
+        <span class="label-num">08</span>
+        <span class="label-line"></span>
+        <span class="label-text">OJT REFLECTION</span>
+      </div>
+      <h2 class="section-title">Looking Back</h2>
+
+      <div class="reflection-layout">
+
+        <div class="reflection-cards">
+          <div class="reflect-card card-glow reveal">
+            <div class="rc-icon">⚡</div>
+            <div class="rc-title">Biggest Challenge</div>
+            <p>Managing the technical precision demanded by the AT&T Audit Day — where a single misconfiguration could jeopardize the entire account. Every action required documentation, verification, and escalation discipline simultaneously.</p>
+          </div>
+          <div class="reflect-card card-glow reveal">
+            <div class="rc-icon">🏆</div>
+            <div class="rc-title">Greatest Triumph</div>
+            <p>Bridging the gap between physical hardware inventory and digital security compliance as a Desk-Site Engineer Trainee — then evolving into a Team Lead who mentored the next cohort of interns through the same process.</p>
+          </div>
+          <div class="reflect-card card-glow reveal">
+            <div class="rc-icon">🧠</div>
+            <div class="rc-title">Personal Growth</div>
+            <p>I discovered that my Cybersecurity background allows me to see "risks" where others see only "tasks." Combined with a Project Management mindset, I learned that a great IT department relies equally on speed and rigorous documentation.</p>
+          </div>
+          <div class="reflect-card card-glow reveal">
+            <div class="rc-icon">🚀</div>
+            <div class="rc-title">Moving Forward</div>
+            <p>This OJT cemented my career path as a Systems Engineer specializing in large-scale infrastructure and compliance-heavy environments. Systems Engineering is not just hardware — it is the art of maintaining a secure, audited, and highly efficient ecosystem.</p>
+          </div>
+        </div>
+
+        <div class="terminal-block card-glow reveal">
+          <div class="term-header">
+            <span class="term-dot red"></span>
+            <span class="term-dot yellow"></span>
+            <span class="term-dot green"></span>
+            <span class="term-title">reflection.sh</span>
+          </div>
+          <div class="term-body" id="terminalBody">
+            <div class="term-line"><span class="term-prompt">$</span> run reflection --intern="Eunice D. Ibardaloza"</div>
+            <div class="term-line out">> Loading OJT summary...</div>
+            <div class="term-line out">> Host: Fusion CX [Mandaluyong, PH]</div>
+            <div class="term-line out">> Duration: OJT Period 2025</div>
+            <div class="term-line out">> Role: Desk-Site Engineer Trainee → Team Lead</div>
+            <div class="term-line out">> Projects completed: 3</div>
+            <div class="term-line out">> Softphone transitioned status: Success</div>
+            <div class="term-line out">> AT&T Audit result: PASSED ✓</div>
+            <div class="term-line out">> Skills unlocked: Troubleshooting, Network Management, Security Compliance, Audit, System Administration</div>
+            <div class="term-line out">> Leadership level: Team Lead</div>
+            <div class="term-line out">> Career target: System Engineer (Enterprise)</div>
+            <div class="term-line success">> Status: OJT COMPLETED SUCCESSFULLY ✓</div>
+            <div class="term-line"><span class="term-prompt">$</span> <span class="blink">_</span></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-logo">EUNICE D. IBARDALOZA</div>
+      <div class="footer-sub">BSIT Cybersecurity · T.I.P. Manila · Fusion CX OJT 2025</div>
+      <div class="footer-links">
+        <a href="mailto:euniceibardaloza5@gmail.com">euniceibardaloza5@gmail.com</a>
+        <span class="footer-sep">·</span>
+        <a href="tel:09677621674">09677621674</a>
+        <span class="footer-sep">·</span>
+        <a href="https://www.linkedin.com/in/eunice-ibardaloza-d/" target="_blank">LinkedIn ↗</a>
+      </div>
+      <div class="footer-copy">© 2025 Eunice D. Ibardaloza. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
